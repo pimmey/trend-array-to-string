@@ -26,5 +26,5 @@ console.log(fancyString); // 1,3-8
 ## Developing
 ```
 npm i
-npm run test
+npm test
 ```
