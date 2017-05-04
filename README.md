@@ -11,15 +11,19 @@ npm i -S trend-array-to-string
 ```js
 import arrayToString from 'trend-array-to-string';
 const array = [1, 3, 4, 5, 6, 7, 8];
-const fancyString = arrayToString(array);
-console.log(fancyString); // 1,3-8
+
+arrayToString(array).then(res => console.log('res', res)); // 1,3-8
+
 ```
 ### ES5
 ```js
 var arrayToString = require('trend-array-to-string').default;
 var array = [1, 3, 4, 5, 6, 7, 8];
-var fancyString = arrayToString(array);
-console.log(fancyString); // 1,3-8
+
+arrayToString(array).then(function (res) {
+  console.log('res', res); // 1,3-8
+});
+
 ```
 
 
