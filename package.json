@@ -1,13 +1,11 @@
 {
   "name": "trend-array-to-string",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Fancy array to string sequences",
   "main": "index.js",
-  "dependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1"
-  },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "chai": "^3.5.0",
     "eslint": "^3.19.0",
     "mocha": "^3.3.0"
