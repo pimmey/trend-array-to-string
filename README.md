@@ -1,7 +1,7 @@
 # trend-array-to-string
 Not your usual array to string
 
-## Install it
+## Installation
 ```
 npm i -S trend-array-to-string
 ```
@@ -23,7 +23,7 @@ console.log(fancyString); // 1,3-8
 ```
 
 
-## Developing
+## Install dev dependencies and run tests
 ```
 npm i
 npm test

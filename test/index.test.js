@@ -51,9 +51,10 @@ describe('Trendy array to fancy string', () => {
   ];
 
   tests.map(test => {
-    it(`returns ${test.output} when passing [${test.input}]`, done => {
-      expect(arrayToString(test.input)).to.equal(test.output);
-      done();
+    it(`returns ${test.output} when passing [${test.input}]`, () => {
+      arrayToString(test.input)
+        .catch(error => done(error))
+        .then(res => expect(res).to.equal(test.output));
     })
   });
 });

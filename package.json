@@ -1,12 +1,13 @@
 {
   "name": "trend-array-to-string",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Fancy array to string sequences",
   "main": "dist/index.js",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
     "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
     "eslint": "^3.19.0",
     "mocha": "^3.3.0"
   },
@@ -17,5 +18,6 @@
     "prepublishOnly": "npm run build"
   },
   "author": "Yegor Borisenco <pimmey@pimmey.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
