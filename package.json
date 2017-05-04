@@ -14,7 +14,8 @@
     "test": "mocha test/ --require babel-core/register",
     "build": "babel src --presets babel-preset-es2015 --out-dir dist",
     "eslint": "eslint src/",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "pretest": "npm run build"
   },
   "author": "Yegor Borisenco <pimmey@pimmey.com>",
   "license": "ISC"

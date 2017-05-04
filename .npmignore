@@ -1,5 +1,3 @@
 .idea
-.babelrc
 .eslintrc.js
 src
-test
