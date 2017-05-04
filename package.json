@@ -1,6 +1,6 @@
 {
   "name": "trend-array-to-string",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Fancy array to string sequences",
   "main": "dist/index.js",
   "devDependencies": {
