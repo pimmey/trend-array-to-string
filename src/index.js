@@ -2,7 +2,7 @@ export default function (array) {
   return new Promise(resolve => {
     const sequences = [];
 
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0, len = array.length; i < len; i++) {
       const start = array[i];
       let end = start;
 
@@ -23,5 +23,5 @@ export default function (array) {
     }
 
     resolve(sequences.join(','));
-  })
+  });
 }
