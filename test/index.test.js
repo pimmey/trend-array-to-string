@@ -1,5 +1,5 @@
-import chai from 'chai';
-import arrayToString from '../dist';
+const chai = require('chai');
+const arrayToString = require('../dist').default;
 const expect = chai.expect;
 
 describe('Trendy array to fancy string', () => {
