@@ -54,7 +54,7 @@ describe('Trendy array to fancy string', () => {
     it(`returns ${test.output} when passing [${test.input}]`, () => {
       arrayToString(test.input)
         .catch(error => done(error))
-        .then(res => expect(res).to.equal(test.output));
+        .then(res => expect(res).to.eventually.equal(test.output));
     })
   });
 });
